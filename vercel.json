@@ -9,7 +9,7 @@
     ],
     "routes": [
         {
-            "src": "/api/classify-number",
-            "dest": "/number-api.js"
+            "src": "/(.*)",
+            "dest": "/"
         }
     ]
