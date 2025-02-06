@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "name": "gift-test",
+    "builds": [
+        {
+            "src": "number-api.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/api/classify-number",
+            "dest": "/number-api.js"
+        }
+    ]
