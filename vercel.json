@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "gift-test",
+    "name": "number-api",
     "builds": [
         {
             "src": "number-api.js",
@@ -13,3 +13,4 @@
             "dest": "/"
         }
     ]
+}
